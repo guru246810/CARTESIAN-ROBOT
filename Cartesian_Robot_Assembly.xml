@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/19/21||17:00:11" using="Simscape Multibody Link Version 6.1" from="SolidWorks 28.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Cartesian_Robot_Assembly" uid="Cartesian_Robot_Assembly" version="1407">
+<AssemblyFile name="Cartesian_Robot_Assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base_0-1" uid="Base_0-1" grounded="true" entityUid="Base_0*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.5706818405234015 0.90553738909711989 3.9494604724966305</Translation>
+</Transform>
+</Instance>
+<Instance name="End_Effector-2" uid="End_Effector-2" entityUid="End_Effector*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>2.2456818405289782 2.1455373890976857 3.7651916130955407</Translation>
+</Transform>
+</Instance>
+<Instance name="spur gear_am-3" uid="spur gear_am-3" entityUid="spur gear_am*:*Metric - Spur gear 0.25M 10T 20PA 12FW ---S10N75H50L0.8N">
+<Transform>
+<Rotation>-2.0965996557705037e-16 -0.84430776641371741 -0.53585855929851434 1 1.7027257385399616e-16 -6.595442322539241e-16 6.4810033369881314e-16 -0.53585855929851434 0.84430776641371741</Rotation>
+<Translation>2.4206818405289425 2.125537389097119 3.4280416130955551</Translation>
+</Transform>
+</Instance>
+<Instance name="spur gear_am-2" uid="spur gear_am-2" entityUid="spur gear_am*:*Metric - Spur gear 0.25M 10T 20PA 12FW ---S10N75H50L0.8N">
+<Transform>
+<Rotation>0 0.31772255878529287 0.9481837246224627 1 0 0 0 0.9481837246224627 -0.31772255878529287</Rotation>
+<Translation>1.8206818405233995 1.9255373890971319 3.6001916130955491</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem2^Cartesian_Robot_Assembly-1" uid="Assem2^Cartesian_Robot_Assembly-1" entityUid="Assem2^Cartesian_Robot_Assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="rack spur rectangular_am-4" uid="rack spur rectangular_am-4" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.229571840523402 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-3" uid="rack spur rectangular_am-3" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.1099418405234021 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-5" uid="rack spur rectangular_am-5" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.3492018405234019 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-6" uid="rack spur rectangular_am-6" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.4688318405234018 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-2" uid="rack spur rectangular_am-2" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>1.9903118405234019 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-8" uid="rack spur rectangular_am-8" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.708091840523402 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-10" uid="rack spur rectangular_am-10" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.9473518405234023 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-11" uid="rack spur rectangular_am-11" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>3.0669818405234022 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-9" uid="rack spur rectangular_am-9" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.8277218405234019 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-7" uid="rack spur rectangular_am-7" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>2.5884618405234021 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-12" uid="rack spur rectangular_am-12" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>3.1866118405234021 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-1" uid="rack spur rectangular_am-1" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>1.870681840523402 2.1358873890971193 3.4901916130957096</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Transmission-4" uid="Transmission-4" entityUid="Transmission" rigid="true">
+<Transform>
+<Rotation>0 -1.4139397702970214e-14 1 -1 1.7347234759768071e-16 0 -1.7347234759768071e-16 -1 -1.4139397702970214e-14</Rotation>
+<Translation>2.0918396914978175 2.444186716206862 3.7850202280264251</Translation>
+</Transform>
+<Instance name="Servo Motor-1" uid="Servo Motor-1" entityUid="Servo Motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.088649327109742604 0.12746595645146819 0.17419214903120128</Translation>
+</Transform>
+</Instance>
+<Instance name="Flange-1" uid="Flange-1" entityUid="Flange*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.093649327109742497 0.12746595645146774 0.1941921490312013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link_2-1" uid="Link_2-1" entityUid="Link_2*:*Default">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 0 1 0 6.9829626776862667e-15 0 -1</Rotation>
+<Translation>2.1206818405289893 2.230537389097119 3.565191613095533</Translation>
+</Transform>
+</Instance>
+<Instance name="Link_1-1" uid="Link_1-1" entityUid="Link_1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.5706818405234024 1.9055373890971197 3.4901916130955541</Translation>
+</Transform>
+</Instance>
+<Instance name="Link_3-2" uid="Link_3-2" entityUid="Link_3*:*Default">
+<Transform>
+<Rotation>-3.4914813388431823e-15 -6.9829626776862423e-15 -1 6.982962677686243e-15 1 -6.9829626776862667e-15 1 -6.9829626776862667e-15 -3.4914813388431334e-15</Rotation>
+<Translation>2.2456818405289369 2.1555373890977272 3.7651916130955407</Translation>
+</Transform>
+</Instance>
+<Instance name="Transmission-2" uid="Transmission-2" entityUid="Transmission" rigid="true">
+<Transform>
+<Rotation>1 -1.734723475976811e-16 0 0 -3.3180089912454523e-15 -1 1.734723475976811e-16 1 -3.3180089912454523e-15</Rotation>
+<Translation>1.7320325134136594 2.1497295381283212 3.4727256566440872</Translation>
+</Transform>
+<Instance name="Servo Motor-1" uid="Servo Motor-1" entityUid="Servo Motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.088649327109742382 0.12746595645146819 0.17419214903120106</Translation>
+</Transform>
+</Instance>
+<Instance name="Flange-1" uid="Flange-1" entityUid="Flange*:*Default">
+<Transform>
+<Rotation>1 0 1.734723475976811e-16 -1.734723475976811e-16 -3.3180089912454523e-15 1 0 -1 -3.3180089912454523e-15</Rotation>
+<Translation>0.093649327109742497 0.12746595645146819 0.19419214903120108</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Transmission-3" uid="Transmission-3" entityUid="Transmission" rigid="true">
+<Transform>
+<Rotation>-1 3.5287863238711489e-15 7.1865525612200439e-15 -7.1865525612200439e-15 1.1737359874836387e-16 -1 -3.5287863238711544e-15 -1 -1.1737359874841283e-16</Rotation>
+<Translation>2.509331167638678 2.3497295381283374 3.5555075695470251</Translation>
+</Transform>
+<Instance name="Servo Motor-1" uid="Servo Motor-1" entityUid="Servo Motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.088649327109742604 0.12746595645146774 0.17419214903120084</Translation>
+</Transform>
+</Instance>
+<Instance name="Flange-1" uid="Flange-1" entityUid="Flange*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.093649327109742497 0.12746595645146774 0.19419214903120086</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem1^Cartesian_Robot_Assembly-1" uid="Assem1^Cartesian_Robot_Assembly-1" entityUid="Assem1^Cartesian_Robot_Assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="rack spur rectangular_am-4" uid="rack spur rectangular_am-4" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016333 1.934387389213142 4.2565044724954726</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-3" uid="rack spur rectangular_am-3" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016331 1.9343873892131416 4.3761344724954725</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-2" uid="rack spur rectangular_am-2" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016331 1.9343873892131411 4.4957644724954724</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-5" uid="rack spur rectangular_am-5" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016333 1.9343873892131425 4.1368744724954727</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-8" uid="rack spur rectangular_am-8" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016333 1.9343873892131436 3.7779844724954721</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-9" uid="rack spur rectangular_am-9" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016333 1.934387389213144 3.6583544724954722</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-6" uid="rack spur rectangular_am-6" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016333 1.9343873892131427 4.0172444724954719</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-7" uid="rack spur rectangular_am-7" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016333 1.9343873892131431 3.8976144724954724</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-10" uid="rack spur rectangular_am-10" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016336 1.9343873892131445 3.5387244724954723</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-11" uid="rack spur rectangular_am-11" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016336 1.9343873892131449 3.4190944724954724</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-1" uid="rack spur rectangular_am-1" grounded="true" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>3.330669073875511e-16 -1 1.5281216359751912e-16 3.5130107793492072e-15 1.5281216359751971e-16 1 -1 -3.3306690738755056e-16 3.5130107793492072e-15</Rotation>
+<Translation>1.8828318407016331 1.9343873892131407 4.6153944724954723</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem3^Cartesian_Robot_Assembly-1" uid="Assem3^Cartesian_Robot_Assembly-1" entityUid="Assem3^Cartesian_Robot_Assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="rack spur rectangular_am-3" uid="rack spur rectangular_am-3" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 2.8466433890972498 3.7200792715749755</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-4" uid="rack spur rectangular_am-4" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 2.7270133890972494 3.7200792715749764</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-6" uid="rack spur rectangular_am-6" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 2.4877533890972496 3.7200792715749782</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-8" uid="rack spur rectangular_am-8" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.3056818405286754 2.2484933890972494 3.72007927157498</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-7" uid="rack spur rectangular_am-7" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 2.3681233890972497 3.7200792715749791</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-2" uid="rack spur rectangular_am-2" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 2.9662733890972497 3.7200792715749746</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-5" uid="rack spur rectangular_am-5" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 2.6073833890972495 3.7200792715749773</Translation>
+</Transform>
+</Instance>
+<Instance name="rack spur rectangular_am-1" uid="rack spur rectangular_am-1" entityUid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll">
+<Transform>
+<Rotation>-3.0538482530068894e-16 -3.6957323826976165e-15 -1 1 -6.9503362813594479e-15 -3.0538482530066503e-16 -7.3389143399782306e-15 -1 3.6957323826976205e-15</Rotation>
+<Translation>2.305681840528675 3.0859033890972496 3.7200792715749738</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="spur gear_am-4" uid="spur gear_am-4" entityUid="spur gear_am*:*Metric - Spur gear 0.25M 10T 20PA 12FW ---S10N75H50L0.8N">
+<Transform>
+<Rotation>1 -1.2317600905766546e-16 3.6776281243193528e-16 1.0179494169774497e-16 0.99834075351744545 0.057582461446341972 -3.7424538107167036e-16 -0.057582461446341972 0.99834075351744545</Rotation>
+<Translation>2.303331840528942 2.3555373890971194 3.6575542715749938</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_0-1</Uid>
+</InstancePath>
+<Position>-0.5 1.1500000000000001 -0.64999999999999991</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>-0.50000000000000044 0.14999999999999991 0.14999999999999991</Position>
+<Axis>1.8503717077085899e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_0-1</Uid>
+</InstancePath>
+<Position>-0.64999999999999991 1.1000000000000003 -0.64999999999999991</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>-0.6500000000000008 0.14999999999999991 0.14999999999999991</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>0.69999999999999929 0.34999999999999964 0.14999999999999991</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.25 0.024999999999999911 0.075000000000000178</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>0.69999999999999929 0.29999999999999982 0.14999999999999991</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.25 0.024999999999999911 -0.075000000000000178</Position>
+<Axis>0 -5.5511151231257837e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999822 -0.17499999999999982 -0.125</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>-0.075000000000000178 1.0499999999999998 -0.074999999999999734</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.14999999999999991 -0.17499999999999982 -0.17500000000000027</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>-0.024999999999999911 0.99999999999999956 -0.024999999999999911</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>0.075000000000000178 1.0499999999999998 -0.074999999999999734</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>End_Effector-2</Uid>
+</InstancePath>
+<Position>-0.074999999999999734 0.0099999999999997868 -0.074999999999999734</Position>
+<Axis>-1 0 1.8503717077085916e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>-0.075000000000000178 1.0499999999999998 -0.074999999999999734</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>End_Effector-2</Uid>
+</InstancePath>
+<Position>0.025000000000000355 0.0099999999999997868 0.075000000000000178</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>End_Effector-2</Uid>
+</InstancePath>
+<Position>0 0.0099999999999997868 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>-0.70000000000000062 0.049999999999999822 0.14999999999999991</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-2</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>0.044999999999999929 0.010000000000000009 -0.040000000000000036</Position>
+<Axis>1 0 -1.7347234759768071e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>0 0 0.14999999999999991</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-2</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>-0.044999999999999929 0.010000000000000009 0.040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>-0.60000000000000053 0.049999999999999822 0.14999999999999991</Position>
+<Axis>-1.3877787807814444e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-2</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.25 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-3</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>0.044999999999999929 0.010000000000000231 -0.04000000000000048</Position>
+<Axis>1 0 -1.7347234759767598e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.24999999999999956 -0.075000000000000178 0.22500000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-3</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.24999999999999956 0.075000000000000178 0.22500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-3</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>-0.044999999999999929 0.0099999999999997868 0.040000000000000036</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>-0.24999999999999956 0.075000000000000178 0.22500000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-4</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>0.044999999999999929 0.010000000000000231 -0.040000000000000036</Position>
+<Axis>1 0 -1.7347234759768071e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-4</Uid>
+<Uid>Flange-1</Uid>
+</InstancePath>
+<Position>0 0.16000000000000014 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>-0.045112341520560761 3.1508129438861943e-12 -0.074999999994536104</Position>
+<Axis>-1 0 3.4914813388431823e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Transmission-4</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999822</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-2</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_am-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Transmission-2</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>spur gear_am-2</Uid>
+</InstancePath>
+<Position>0.025400050800000074 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Transmission-3</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999822</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>spur gear_am-3</Uid>
+</InstancePath>
+<Position>0.025400050800000074 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-3</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999822</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_am-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Transmission-4</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999822</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>spur gear_am-4</Uid>
+</InstancePath>
+<Position>0.025400050800000074 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-4</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999822</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_am-4</Uid>
+</InstancePath>
+<Position>0.012700000000000156 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_0-1</Uid>
+</InstancePath>
+<Position>-0.68785000000000007 1.0499999999999998 -0.64999999999999991</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-6</Uid>
+</InstancePath>
+<Position>0 0 -0.0063500000000000778</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Transmission-2</Uid>
+<Uid>Servo Motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-6</Uid>
+</InstancePath>
+<Position>0 0.031749999999999945 -0.0063500000000000778</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_0-1</Uid>
+</InstancePath>
+<Position>-0.64999999999999991 1 -0.64999999999999991</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-11</Uid>
+</InstancePath>
+<Position>0.11963400000000002 0 -0.0063500000000000778</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem2^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0063499999999998558</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>-0.70000000000000062 0.049999999999999822 0.14999999999999991</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem2^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0063499999999998558</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1-1</Uid>
+</InstancePath>
+<Position>0.69999999999999929 0.19999999999999973 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem2^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0.031750000000000167 -0.0063499999999998558</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>-0.045112341520560761 3.1508129438861943e-12 -0.074999999994536104</Position>
+<Axis>-1 0 3.4914813388431823e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem3^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 -4.4408920985006262e-16 -0.0063499999999998558</Position>
+<Axis>-3.8857805861878349e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>0 1.0499999999999998 4.4408920985006262e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem3^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0.11963400000000002 0 -0.0063499999999998558</Position>
+<Axis>1 3.8857805861878349e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_3-2</Uid>
+</InstancePath>
+<Position>-0.045112341520561205 3.1508129438861943e-12 -0.054999999994535642</Position>
+<Axis>-3.4914813388431957e-15 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem3^Cartesian_Robot_Assembly-1</Uid>
+<Uid>rack spur rectangular_am-1</Uid>
+</InstancePath>
+<Position>0 0.031750000000000167 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Assem2^Cartesian_Robot_Assembly" uid="Assem2^Cartesian_Robot_Assembly" version="104">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Cartesian_Robot_Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Transmission" uid="Transmission" version="124">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Transmission.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem1^Cartesian_Robot_Assembly" uid="Assem1^Cartesian_Robot_Assembly" version="104">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Cartesian_Robot_Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem3^Cartesian_Robot_Assembly" uid="Assem3^Cartesian_Robot_Assembly" version="107">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Cartesian_Robot_Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Base_0" uid="Base_0*:*Default" version="266">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_0.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>137.96024999999997</Mass>
+<CenterOfMass>-0.011928963098066165 0.69900030081128439 0</CenterOfMass>
+<Inertia>54.545057122737532 82.803845571396138 63.990098944133649 -8.2963593749559495e-16 0 0.53650511533553191</Inertia>
+</MassProperties>
+<GeometryFile name="Base_0_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="End_Effector" uid="End_Effector*:*Default" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="End_Effector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16243362938564074</Mass>
+<CenterOfMass>0 0.0050000000000000001 0</CenterOfMass>
+<Inertia>0.00025608186111028992 0.00063445649506415226 0.0003810818611102897 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="End_Effector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="0.5" g="0.25098039215686274" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Flange" uid="Flange*:*Default" version="181">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Flange.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18516257266855191</Mass>
+<CenterOfMass>0.024834854975217268 0.054566702959928749 0</CenterOfMass>
+<Inertia>0.00058047882304326141 0.00021285950161250148 0.00060085478488676892 0 0 -0.0001391937448474553</Inertia>
+</MassProperties>
+<GeometryFile name="Flange_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link_1" uid="Link_1*:*Default" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>32.749999999999964</Mass>
+<CenterOfMass>-1.0146808118070457e-15 0.23835877862595406 0.075000000000000011</CenterOfMass>
+<Inertia>0.26217636768447772 6.8391145833333225 6.9901451176844667 0 0 -1.3898892506591851e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Link_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link_2" uid="Link_2*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.874999999999998</Mass>
+<CenterOfMass>-0.125 0.0024271844660193943 0.018932038834951519</CenterOfMass>
+<Inertia>0.26254904935275075 0.30856239886731385 0.099351233818770229 0.00059162621359224669 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Link_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link_3" uid="Link_3*:*Default" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>18.612433629385638</Mass>
+<CenterOfMass>0 0.5320670238690226 0</CenterOfMass>
+<Inertia>1.7771510777059989 0.073946956495064151 1.7896510777059986 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Link_3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="1" a="1"/>
+<Diffuse r="0" g="0" b="1" a="1"/>
+<Specular r="0" g="0" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo Motor" uid="Servo Motor*:*Default" version="1988">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo Motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.93058522664574594</Mass>
+<CenterOfMass>-0.00011889061819553015 0.00050825602625384849 -0.068282341093741303</CenterOfMass>
+<Inertia>0.0025668538164292801 0.002549555094266263 0.00082517968742143379 2.0517412728010758e-05 -8.4066436597293489e-06 3.9506037248452392e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Servo Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack spur rectangular_am" uid="rack spur rectangular_am*:*Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll" version="1194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack spur rectangular_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018263421216783812</Mass>
+<CenterOfMass>0.059825302196648146 0.012706181254202444 -0.0031749999999999999</CenterOfMass>
+<Inertia>1.240375026160696e-06 2.1730666530491895e-05 2.2848303756316963e-05 0 0 -1.599851659470294e-09</Inertia>
+</MassProperties>
+<GeometryFile name="rack spur rectangular_am_Metric - Rack-spur - rectangular 0.25M 20PA 12FW 40PH 119.63L---SAll_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spur gear_am" uid="spur gear_am*:*Metric - Spur gear 0.25M 10T 20PA 12FW ---S10N75H50L0.8N" version="1407">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spur gear_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.050526421394934323</Mass>
+<CenterOfMass>0.0063499999999999989 0 0</CenterOfMass>
+<Inertia>4.0295827168404816e-05 2.0827030793101527e-05 2.0827030793101449e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="spur gear_am_Metric - Spur gear 0.25M 10T 20PA 12FW ---S10N75H50L0.8N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
